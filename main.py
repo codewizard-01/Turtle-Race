@@ -37,4 +37,4 @@ class TurtleRace:
         multiplayer.Multiplayer()
 
 
-test = TurtleRace()
+raceObj = TurtleRace()

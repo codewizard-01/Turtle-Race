@@ -7,7 +7,8 @@ class SinglePlayer:
     def __init__(self):
         self.screen = Screen()
         self.screen.setup(width=500, height=400)
-        self.user_bet = self.screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Choose a color: ")
+        self.user_bet = self.screen.textinput(title="Make your bet",
+                                              prompt="Which turtle will win the race? Choose a color: ")
         self.colors = ["red", "orange", "blue", "yellow", "purple", "green"]
         self.y_positions = [-70, -40, -10, 20, 50, 80]
         self.all_turtles = []
